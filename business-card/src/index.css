@@ -1,0 +1,142 @@
+body {
+  font-family: Inter, sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  background-color: #23252C !important;
+  padding: 50px 90px;
+  width: 317px;
+}
+
+#root {
+  background-color: #23252C !important;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.header-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.profile-name {
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+.profile-designation {
+  color: #F3BF99;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.profile-site{
+  text-align: center; 
+}
+
+.profile-link {
+  color: #F5F5F5;
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.btn {
+  box-sizing: border-box;  
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  width: 115px;
+  height: 35px;
+  border: 1px solid #D1D5DB;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.linkedin{
+  border: 1px solid #5093E2;
+  background: #5093E2;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.icon-text{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #374151;
+}
+
+.linkedin-text {
+  color: #FFFFFF;
+}
+
+
+.profile {
+  background: #1A1B21;
+  padding: 40px 30px;
+}
+
+.profile-header {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  color: #F5F5F5;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.content {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+  /* or 15px */
+  color: #DCDCDC;
+  margin: 0;
+}
+
+.footer {
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
